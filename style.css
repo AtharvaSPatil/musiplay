@@ -1,0 +1,148 @@
+@import url('https://fontisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body
+{
+    background-color: #141920;
+    /* position: relative; */
+}
+.page{
+    position: relative;
+    overflow: hidden;
+    height: 640.25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 42px;
+    background-color: black;
+}
+nav ul li{
+    align-self: center;
+    padding: 0 12px;
+    font-family: 'Bebas Neue';
+}
+#logo{
+    width: auto;
+    font-weight: bolder;
+    height: 43px;
+    padding-top: 7px;
+    padding-right: 0px;
+}
+#myProgressBar{
+    cursor: pointer;
+}
+.container{
+    min-height: 75vh;
+    font-family: 'Poppins';
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 15px;
+    background-image: url('bg.jpg');
+    /* object-fit: contain; */
+    padding: 30px;
+    overflow: scroll;
+}
+.bottom{
+    display: flex;
+    width: 85vw;
+    justify-self: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    border-radius: 15px;
+    background-color: black;
+    /* bottom: 0; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins';
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 75px;
+}
+.icons{
+    margin-top: 15px;
+    position: absolute;
+    bottom: 30px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 3px 3px;
+}
+#myProgressBar{
+    width: 80vw;
+    position: absolute;
+    bottom: 64px;
+    /* text-align: center; */
+}
+.songItem{
+    height: 40px;
+    /* width: 100px; */
+    display: flex;
+    background-color: #1e2125;
+    /* width: 100%; */
+    color: rgb(113, 112, 112);
+    justify-content: space-between; 
+    margin: 12px 0px;
+    align-items: center;
+    border-radius: 12px;
+    overflow: scroll;
+}
+
+.songItem img{
+    width: 35px;
+    margin: 0px 17px;
+    border-radius: 33px;
+}
+.songItem i:hover{
+    color: white;
+}
+.timeStamp{
+    margin: 0px 17px;
+    /* cursor: pointer; */
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 34px;
+    overflow: scroll;
+}
+.songInfo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: -7px; */
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#heading{
+    font-family: 'VT323';
+}
